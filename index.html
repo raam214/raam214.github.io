@@ -46,17 +46,17 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1rem 2rem;display:fl
 .hero-badge{display:inline-flex;align-items:center;gap:0.5rem;padding:0.4rem 1rem;background:rgba(0,245,196,0.1);border:1px solid rgba(0,245,196,0.3);border-radius:100px;font-size:0.8rem;color:var(--accent);margin-bottom:1.5rem;animation:fadeUp 0.6s ease both;}
 .hero-badge::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite;}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:0.5;transform:scale(1.5);}}
-.hero-name{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(2.5rem,5vw,4rem);line-height:1.1;margin-bottom:1rem;animation:fadeUp 0.6s 0.1s ease both;opacity:0;}
+.hero-name{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(2.5rem,5vw,4rem);line-height:1.1;margin-bottom:1rem;animation:fadeUp 0.6s 0.1s ease both;}
 .hero-name span{background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
-.hero-title{font-size:1.1rem;color:var(--text2);margin-bottom:1.5rem;line-height:1.7;animation:fadeUp 0.6s 0.2s ease both;opacity:0;}
-.hero-location{display:flex;align-items:center;gap:0.5rem;color:var(--text3);font-size:0.9rem;margin-bottom:2rem;animation:fadeUp 0.6s 0.3s ease both;opacity:0;}
+.hero-title{font-size:1.1rem;color:var(--text2);margin-bottom:1.5rem;line-height:1.7;animation:fadeUp 0.6s 0.2s ease both;}
+.hero-location{display:flex;align-items:center;gap:0.5rem;color:var(--text3);font-size:0.9rem;margin-bottom:2rem;animation:fadeUp 0.6s 0.3s ease both;}
 .hero-location::before{content:'📍';font-size:0.85rem;}
-.hero-btns{display:flex;gap:1rem;flex-wrap:wrap;animation:fadeUp 0.6s 0.4s ease both;opacity:0;}
+.hero-btns{display:flex;gap:1rem;flex-wrap:wrap;animation:fadeUp 0.6s 0.4s ease both;}
 .btn-primary{padding:0.75rem 1.75rem;background:var(--grad);color:#05070f;font-weight:600;border-radius:8px;text-decoration:none;font-size:0.9rem;transition:transform 0.2s,box-shadow 0.2s;}
 .btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(0,245,196,0.3);}
 .btn-secondary{padding:0.75rem 1.75rem;border:1px solid var(--border2);color:var(--text);border-radius:8px;text-decoration:none;font-size:0.9rem;transition:all 0.2s;}
 .btn-secondary:hover{border-color:var(--accent);color:var(--accent);}
-.hero-photo-wrap{display:flex;justify-content:center;animation:fadeUp 0.6s 0.2s ease both;opacity:0;}
+.hero-photo-wrap{display:flex;justify-content:center;animation:fadeUp 0.6s 0.2s ease both;}
 .hero-photo-ring{position:relative;width:340px;height:340px;}
 .hero-photo-ring::before{content:'';position:absolute;inset:-3px;border-radius:50%;background:var(--grad);animation:spin 8s linear infinite;}
 .hero-photo-ring::after{content:'';position:absolute;inset:-8px;border-radius:50%;border:1px solid rgba(0,245,196,0.2);animation:spin 12s linear infinite reverse;}
@@ -65,7 +65,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1rem 2rem;display:fl
 .hero-photo img{width:100%;height:100%;object-fit:cover;}
 
 /* STATS */
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:3rem;animation:fadeUp 0.6s 0.5s ease both;opacity:0;}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:3rem;animation:fadeUp 0.6s 0.5s ease both;}
 .stat{text-align:center;padding:1rem;background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:12px;}
 .stat-num{font-family:'Syne',sans-serif;font-weight:800;font-size:1.8rem;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
 .stat-label{font-size:0.75rem;color:var(--text3);margin-top:0.25rem;}
@@ -144,7 +144,7 @@ footer span{background:var(--grad);-webkit-background-clip:text;-webkit-text-fil
 
 /* ANIMATIONS */
 @keyframes fadeUp{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
-.reveal{opacity:0;transform:translateY(30px);transition:opacity 0.6s ease,transform 0.6s ease;}
+.reveal{opacity:1;transform:translateY(0);transition:opacity 0.6s ease,transform 0.6s ease;}
 .reveal.visible{opacity:1;transform:none;}
 
 /* RESPONSIVE */
@@ -183,7 +183,7 @@ footer span{background:var(--grad);-webkit-background-clip:text;-webkit-text-fil
       <div class="hero-location">Pune, Maharashtra, India</div>
       <div class="hero-btns">
         <a href="#projects" class="btn-primary">View Projects</a>
-        <a href="/cdn-cgi/l/email-protection#186a79797568796c71742a292c587f75797174367b7775" class="btn-secondary">Hire Me</a>
+        <a href="/cdn-cgi/l/email-protection#027063636f7263766b6e30333642656f636b6e2c616d6f" class="btn-secondary">Hire Me</a>
       </div>
       <div class="stats">
         <div class="stat"><div class="stat-num">4</div><div class="stat-label">Live Projects</div></div>
@@ -1995,9 +1995,9 @@ sBbdRtVn8QSiyvJ8xkPSjah9Ebrs8wre0u12RpHbm3r4hJR3dL7n/9k=" alt="Ram Dukare">
         </div>
       </div>
       <div class="contact-links">
-        <a href="/cdn-cgi/l/email-protection#b0c2d1d1ddc0d1c4d9dc828184f0d7ddd1d9dc9ed3dfdd" class="contact-link">
+        <a href="/cdn-cgi/l/email-protection#92e0f3f3ffe2f3e6fbfea0a3a6d2f5fff3fbfebcf1fdff" class="contact-link">
           <div class="contact-link-icon">📧</div>
-          <div class="contact-link-text"><strong>Email</strong><span class="__cf_email__" data-cfemail="a8dac9c9c5d8c9dcc1c49a999ce8cfc5c9c1c486cbc7c5">[email&#160;protected]</span></div>
+          <div class="contact-link-text"><strong>Email</strong><span class="__cf_email__" data-cfemail="374556565a4756435e5b05060377505a565e5b1954585a">[email&#160;protected]</span></div>
         </a>
         <a href="tel:+917741968933" class="contact-link">
           <div class="contact-link-icon">📱</div>
